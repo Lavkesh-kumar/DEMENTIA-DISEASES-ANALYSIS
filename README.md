@@ -29,9 +29,6 @@ Install the required packages using pip:
 pip install -r requirements.txt
 ```
 
-### Loading Weights
-Ensure that your fine-tuned model weights (e.g., `resnet18_best.pth`) are placed directly into the `model/` directory.
-
 ### Running the App
 Start the Flask web server:
 ```bash
