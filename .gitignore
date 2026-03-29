@@ -1,33 +1,5 @@
-# Byte-compiled / optimized / DLL files
+.env
 __pycache__/
-*.py[cod]
-*$py.class
-
-# PyTorch models / Data
 *.pth
-*.pt
-*.onnx
-
-# Flask uploads (Don't commit user's temporary images)
 static/uploads/*
 !static/uploads/.gitkeep
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IDEs
-.vscode/
-.idea/
-
-# OS specific files
-.DS_Store
-Thumbs.db
