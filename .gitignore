@@ -1,5 +1,1 @@
 .env
-__pycache__/
-*.pth
-static/uploads/*
-!static/uploads/.gitkeep
