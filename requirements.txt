@@ -1,0 +1,7 @@
+Flask
+torch
+torchvision
+timm
+albumentations
+opencv-python
+numpy
