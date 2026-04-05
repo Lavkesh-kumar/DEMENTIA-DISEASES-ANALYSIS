@@ -40,7 +40,7 @@ def load_model(model_path):
     if not os.path.exists(model_path):
         return None
     
-    checkpoint = torch.load(model_path, map_location=device)
+    checkpoint = torch.load(model_path, map_location=device, weights_only=False)
     
     if 'model' in checkpoint:
         model.load_state_dict(checkpoint['model'])
