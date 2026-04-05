@@ -10,9 +10,13 @@ The CDT is a proven preliminary test for the detection of neurocognitive disease
 The core objective is to digitize the process of CDT by using deep learning models (specifically an image classification model built on ResNet18 via `timm`) utilizing the dataset of hand-drawn clock images. 
 
 **Severity Scale:**
-The severity of the disease is specified in the range **0-5**:
-*   `0`: Indicating the worst case (Severe Dementia)
-*   `5`: Showing no sign of Dementia (Normal)
+The severity of the disease is evaluated on a scale of **0-5**, with the following specific classifications:
+*   `0`: Severe Dementia (Worst Case)
+*   `1`: Moderate to Severe Dementia
+*   `2`: Moderate Dementia
+*   `3`: Mild Dementia
+*   `4`: Very Mild Dementia
+*   `5`: Normal (No signs of Dementia)
 
 ## Architecture Overview
 This repository contains:
