@@ -1,7 +1,7 @@
 Flask
-torch
-torchvision
+torch==1.13.1
+torchvision==0.14.1
 timm
 albumentations
 opencv-python
-numpy
+numpy<1.24
